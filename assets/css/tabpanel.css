@@ -1,0 +1,104 @@
+
+.TabbedPanels{
+margin:1px;
+padding:0; 
+float:left; 
+clear:none;
+width:100%;
+
+}
+.TabbedPanelsTabGroup{
+margin:0; 
+padding:0;
+}
+.TabbedPanelsTab{
+width:80px;
+height:50px;
+position:relative;
+font-weight:bold;
+top:1px;
+
+float:left;
+
+margin:0px 1px 0px 0px;
+font:bold 0.7em sans-serif;
+background-color:#DDD;
+list-style:none;
+border-left:solid 1px #CCC;
+border-bottom:solid 1px #999;
+border-top:solid 1px #999;
+border-right:solid 1px #999;
+-moz-user-select:none;
+-khtml-user-select:none;
+cursor:pointer;
+-moz-border-radius-topleft:10px;
+border-radius-topleft:10px;
+-moz-border-radius-topright:10px;
+border-radius-topright:10px;
+
+}
+.TabbedPanelsTabHover{
+background-color:#CCC;}
+.TabbedPanelsTabSelected{
+background-color:#fff;
+border-bottom:1px solid #fff;}
+.TabbedPanelsTab a{
+color:black;
+text-decoration:none;}
+.TabbedPanelsContentGroup{
+clear:both;
+border-left:solid 1px #CCC;
+border-bottom:solid 1px #CCC;
+border-top:solid 1px #999;
+border-right:solid 1px #999;
+background-color:#fff;
+padding-left:3px;
+width:793px;
+height:640px;
+-moz-border-radius-bottomleft:5px;
+border-radius-bottomleft:5px;
+-moz-border-radius-topright:5px;
+border-radius-topright:5px;
+-moz-border-radius-bottomright:5px;
+border-radius-bottomright:5px;}
+
+.TabbedPanelsContentGroup .chart-form{
+   margin-top:0px;
+   border:none;   
+   padding-top:0px;
+}
+
+.TabbedPanelsContent{
+padding: 1px;
+}
+.TabbedPanelsContentVisible{
+}
+.VTabbedPanels .TabbedPanelsTabGroup{
+float:left;
+width:10em;
+height:20em;
+background-color:#EEE;
+position:relative;
+border-top:solid 1px #999;
+border-right:solid 1px #999;
+border-left:solid 1px #CCC;
+border-bottom:solid 1px #CCC;}
+.VTabbedPanels .TabbedPanelsTab{
+float:none;
+margin:0px;
+
+border-top:none;
+border-left:none;
+border-right:none;}
+.VTabbedPanels .TabbedPanelsTabSelected{
+background-color:#EEE;
+border-bottom:solid 1px #999;}
+.VTabbedPanels .TabbedPanelsContentGroup{
+clear:none;
+float:left;
+padding:0px;
+width:30em;
+height:20em;}
+
+
+
